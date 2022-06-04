@@ -1,0 +1,29 @@
+in windows
+rd .git /S/Q
+
+on ubuntu
+rm -rf .git*
+
+git init
+
+git add .
+
+git commit -m "1"
+
+git remote add origin <link>
+
+
+git push -u origin master
+
+
+
+
+update
+
+
+
+
+
+git add .
+git commit -m "smth"
+git push origin master
